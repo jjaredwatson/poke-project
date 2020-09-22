@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Brawl</title>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>h1 {text-shadow: 2px 1px #000000;} .header {background-image: linear-gradient(#edcff7, #DCA1F0);} .content {background-image: linear-gradient(#AFEEFE, white, #AFEEFE);}</style>
+</head>
+<body>
+
+    <div class="site-wrapper">
+
+        <div class="header">
+            <div class="flex justify-center md:pt-2 pt-1">
+                <img class="md:w-32 w-20" src="img/pokemon-logo.png" alt="logo" />
+            </div>
+            <div class="text-center">
+                <h1 class="md:text-xl text-sm text-white -mt-2 md:pb-2 pb-1" style="font-family: 'Knewave', cursive;">BRAWL</h1>
+            </div>
+        </div>
+
+        <div class="content h-screen w-full">
+            <div class="content-container flex flex-col justify-between lg:px-48 md:px-24 sm:px-16 px-6"> 
+                <div class="player-one md:py-8 py-4 grid grid-cols-3 justify-between">
+                    <div class="col-span-1 flex flex-col items-center">
+                        <p class="md:text-2xl text-xl" style="font-family: 'Knewave', cursive;">P1</p>
+                        <img class="md:w-40 w-20 pt-1" src="img/poke-deck.png" alt="poke-deck">
+                    </div>
+                    <div class="col-span-2 flex justify-center items-center">
+                        <div class="triangle c-triangle-left md:text-10xl text-8xl text-arrowred"></div>
+                        <div class="flex text-center">
+                            <div class="rectangle relative md:h-20 h-16 md:w-80 w-40 bg-arrowred"></div>
+                            <div class="rectangle-sm absolute md:h-10 h-8 md:w-80 w-40 bg-arrowshadow"></div>
+                            <div class="absolute text-center">
+                                <p class="md:text-4xl text-2xl" style="font-family: 'Knewave', cursive;">Select P1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='center-content' class="w-full lg:h-48 md:h-40 h-32 grid grid-cols-3 justify-between">
+                    <div id="msg-left" class="col-span-1">
+
+                    </div>
+                    <div id="msg-right" class="col-span-2 text-center">
+                        <h4 class="uppercase lg:text-2xl text-xl" style="font-family: 'Knewave', cursive;">Welcome to</h4>
+                        <h2 class="uppercase lg:text-5xl text-3xl" style="font-family: 'Knewave', cursive;">Pokémon</h2>
+                        <h2 class="uppercase lg:text-5xl text-3xl" style="font-family: 'Knewave', cursive;">Brawl</h2>
+                    </div>
+
+                </div>
+                <div class="player-two md:py-8 py-4 grid grid-cols-3 justify-between">
+                    <div class="col-span-1 flex flex-col items-center">
+                        <p class="md:text-2xl text-xl" style="font-family: 'Knewave', cursive;">P2</p>
+                        <img class="md:w-40 w-20 pt-1" src="img/poke-deck.png" alt="poke-deck">
+                    </div>
+                    <div class="col-span-2 flex justify-center items-center">
+                        <div class="triangle c-triangle-left md:text-10xl text-8xl text-arrowred"></div>
+                        <div class="flex text-center">
+                            <div class="rectangle relative md:h-20 h-16 md:w-80 w-40 bg-arrowred"></div>
+                            <div class="rectangle-sm absolute md:h-10 h-8 md:w-80 w-40 bg-arrowshadow"></div>
+                            <div class="absolute flex justify-center">
+                                <p class="md:text-4xl text-2xl " style="font-family: 'Knewave', cursive;">Select P2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "poke-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjaredwatson/poke-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjaredwatson/poke-project/issues"
+  },
+  "homepage": "https://github.com/jjaredwatson/poke-project#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10",
+    "tailwindcss-triangles": "^4.0.0"
+  }
+}

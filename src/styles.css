@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+    text-shadow: 2px 1px #000000;
+} 
+
+.header {
+    background-image: linear-gradient(#edcff7, #DCA1F0);
+} 
+
+.content {
+    background-image: linear-gradient(#AFEEFE, white, #AFEEFE);
+}
